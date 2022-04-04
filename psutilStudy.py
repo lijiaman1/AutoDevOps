@@ -17,7 +17,7 @@ print(psutil.pids())
 
 print(psutil.Process(664))
 print(psutil.Process(664).exe())
-print(osutil.Process(664).connections())
+print(psutil.Process(664).connections())
 
 # user info
 print(psutil.disk_io_counters(perdisk=True))
